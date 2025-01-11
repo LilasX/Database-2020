@@ -1,0 +1,506 @@
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+Connected.
+
+User dropped.
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+DROP TABLE evaluation CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE client CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+      C_ID   SKILL_ID CERTIFIC                                                  
+========== ========== ========                                                  
+       100          1 Y                                                         
+       100          3 N                                                         
+       100          6 Y                                                         
+
+
+      C_ID   SKILL_ID CERTIFIC                                                  
+========== ========== ========                                                  
+       102          7 Y                                                         
+
+
+no rows selected
+
+
+SKILL_DESCRIPTION                                  C_FIRST                      
+================================================== ====================         
+C_LAST               CERTIFIC                                                   
+==================== ========                                                   
+VB .NET Programming                                Sarah                        
+Carlson              Y                                                          
+                                                                                
+VB .NET Programming                                Mark                         
+Myers                Y                                                          
+                                                                                
+Project Management                                 Janet                        
+Park                 Y                                                          
+                                                                                
+
+SKILL_DESCRIPTION                                  C_FIRST                      
+================================================== ====================         
+C_LAST               CERTIFIC                                                   
+==================== ========                                                   
+Oracle Developer Programming                       Sarah                        
+Carlson              Y                                                          
+                                                                                
+Oracle Developer Programming                       Mark                         
+Myers                Y                                                          
+                                                                                
+Oracle Database Administration                     Brian                        
+Zhang                Y                                                          
+                                                                                
+
+SKILL_DESCRIPTION                                  C_FIRST                      
+================================================== ====================         
+C_LAST               CERTIFIC                                                   
+==================== ========                                                   
+Windows NT/2000 Network Administration             Sarah                        
+Carlson              Y                                                          
+                                                                                
+Windows XP Network Administration                  Paul                         
+Courtlandt           Y                                                          
+                                                                                
+Windows XP Network Administration                  Sarah                        
+Carlson              Y                                                          
+                                                                                
+
+9 rows selected.
+
+
+PROJECT_NAME                   C_FIRST              C_LAST                      
+============================== ==================== ====================        
+Hardware Support Interface     Mark                 Myers                       
+Exploration Database           Mark                 Myers                       
+
+
+PROJECT_NAME                   C_FIRST              C_LAST                      
+============================== ==================== ====================        
+    MGR_ID                                                                      
+==========                                                                      
+Hardware Support Intranet      Janet                Park                        
+       105                                                                      
+                                                                                
+Hardware Support Intranet      Janet                Park                        
+       105                                                                      
+                                                                                
+Hardware Support Intranet      Janet                Park                        
+       105                                                                      
+                                                                                
+
+PROJECT_NAME                   C_FIRST              C_LAST                      
+============================== ==================== ====================        
+    MGR_ID                                                                      
+==========                                                                      
+Hardware Support Intranet      Janet                Park                        
+       105                                                                      
+                                                                                
+Hardware Support Interface     Sarah                Carlson                     
+       103                                                                      
+                                                                                
+Hardware Support Interface     Sarah                Carlson                     
+       103                                                                      
+                                                                                
+
+PROJECT_NAME                   C_FIRST              C_LAST                      
+============================== ==================== ====================        
+    MGR_ID                                                                      
+==========                                                                      
+Hardware Support Database      Brian                Zhang                       
+       102                                                                      
+                                                                                
+Hardware Support Database      Brian                Zhang                       
+       102                                                                      
+                                                                                
+Teller Support System          Janet                Park                        
+       105                                                                      
+                                                                                
+
+PROJECT_NAME                   C_FIRST              C_LAST                      
+============================== ==================== ====================        
+    MGR_ID                                                                      
+==========                                                                      
+Teller Support System          Janet                Park                        
+       105                                                                      
+                                                                                
+Teller Support System          Janet                Park                        
+       105                                                                      
+                                                                                
+Internet Advertising           Janet                Park                        
+       105                                                                      
+                                                                                
+
+PROJECT_NAME                   C_FIRST              C_LAST                      
+============================== ==================== ====================        
+    MGR_ID                                                                      
+==========                                                                      
+Internet Advertising           Janet                Park                        
+       105                                                                      
+                                                                                
+Network Design                 Paul                 Courtlandt                  
+       104                                                                      
+                                                                                
+Network Design                 Paul                 Courtlandt                  
+       104                                                                      
+                                                                                
+
+PROJECT_NAME                   C_FIRST              C_LAST                      
+============================== ==================== ====================        
+    MGR_ID                                                                      
+==========                                                                      
+Exploration Database           Brian                Zhang                       
+       102                                                                      
+                                                                                
+Exploration Database           Brian                Zhang                       
+       102                                                                      
+                                                                                
+
+17 rows selected.
+
+
+PROJECT_NAME                                                                    
+==============================                                                  
+Hardware Support Intranet                                                       
+Hardware Support Interface                                                      
+Hardware Support Database                                                       
+Teller Support System                                                           
+Internet Advertising                                                            
+Network Design                                                                  
+Exploration Database                                                            
+
+7 rows selected.
+
+
+PROJECT_NAME                                                                    
+==============================                                                  
+Hardware Support Intranet                                                       
+Hardware Support Interface                                                      
+Hardware Support Database                                                       
+Teller Support System                                                           
+Internet Advertising                                                            
+Network Design                                                                  
+Exploration Database                                                            
+
+7 rows selected.
+

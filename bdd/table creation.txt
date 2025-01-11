@@ -1,0 +1,15 @@
+-- TABLE creation
+
+SELECT table_name FROM user_tables;
+
+CREATE TABLE name_of_table (column_name1 DATATYPE, column_name2 DATATYPE,...)
+Ex : Create the table of the following logical design using appropriate datatype
+(NUMBER for ID, VARCHAR2 (specify max size like 100 characters) for name, DATE for date)
+
+STUDENT (sid, sname, birthdate)
+
+CREATE TABLE student (sid NUMBER, sname VARCHAR2(100), birthdate DATE);
+
+DESCRIBE name_of_table OR
+DESC name_of_table
+Ex : DESC student

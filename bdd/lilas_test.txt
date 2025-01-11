@@ -1,0 +1,99 @@
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+CUSTNAME                                                                        
+--------------------------------------------------------------------------------
+ODATE       PAYMENT                                                             
+-------- ----------                                                             
+DESCRIPTION                                                                     
+--------------------------------------------------------------------------------
+     PRICE   QUANTITY                                                           
+---------- ----------                                                           
+Lilas                                                                           
+20-10-26        100                                                             
+MIDI                                                                            
+       120          1                                                           
+                                                                                
+

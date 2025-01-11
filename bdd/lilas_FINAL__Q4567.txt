@@ -1,0 +1,1292 @@
+Connected.
+
+User dropped.
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+DROP TABLE order_line CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE shipment_line CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE shipment CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE inventory CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE color CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE item CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE category CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE orders CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE order_source CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE customer CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         1 Children's Beachcomber Sandals          114         199.95           
+        199.95                                                                  
+                                                                                
+         6 Men's Expedition Parka                   50          15.95           
+         15.95                                                                  
+                                                                                
+         4 3-Season Tent                           135          59.95           
+         59.95                                                                  
+                                                                                
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         7 Women's Fleece Pullover                 100          19.99           
+         19.99                                                                  
+                                                                                
+         1 Women's Hiking Shorts                   114         199.95           
+        199.95                                                                  
+                                                                                
+         6 Children's Beachcomber Sandals           50          15.95           
+         15.95                                                                  
+                                                                                
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         6 Boy's Surf Shorts                        50          15.95           
+         15.95                                                                  
+                                                                                
+         7 Women's Hiking Shorts                   100          19.99           
+         19.99                                                                  
+                                                                                
+         7 Girl's Soccer Tee                       100          19.99           
+         19.99                                                                  
+                                                                                
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         4 Children's Beachcomber Sandals          135          59.95           
+         59.95                                                                  
+                                                                                
+         1 Men's Expedition Parka                  114         199.95           
+        199.95                                                                  
+                                                                                
+         1 Women's Fleece Pullover                 114         199.95           
+        199.95                                                                  
+                                                                                
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         4 Girl's Soccer Tee                       135          59.95           
+         59.95                                                                  
+                                                                                
+         1 Boy's Surf Shorts                       114         199.95           
+        199.95                                                                  
+                                                                                
+         1 Girl's Soccer Tee                       114         199.95           
+        199.95                                                                  
+                                                                                
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         6 Women's Fleece Pullover                  50          15.95           
+         15.95                                                                  
+                                                                                
+         7 Men's Expedition Parka                  100          19.99           
+         19.99                                                                  
+                                                                                
+         7 Children's Beachcomber Sandals          100          19.99           
+         19.99                                                                  
+                                                                                
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         4 Men's Expedition Parka                  135          59.95           
+         59.95                                                                  
+                                                                                
+         7 Boy's Surf Shorts                       100          19.99           
+         19.99                                                                  
+                                                                                
+         4 Women's Fleece Pullover                 135          59.95           
+         59.95                                                                  
+                                                                                
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         1 3-Season Tent                           114         199.95           
+        199.95                                                                  
+                                                                                
+         6 3-Season Tent                            50          15.95           
+         15.95                                                                  
+                                                                                
+         7 3-Season Tent                           100          19.99           
+         19.99                                                                  
+                                                                                
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         4 Women's Hiking Shorts                   135          59.95           
+         59.95                                                                  
+                                                                                
+         4 Boy's Surf Shorts                       135          59.95           
+         59.95                                                                  
+                                                                                
+         6 Women's Hiking Shorts                    50          15.95           
+         15.95                                                                  
+                                                                                
+
+   ITEM_ID ITEM_DESC                      SUM(INV_QOH) MIN(INV_PRICE)           
+---------- ------------------------------ ------------ --------------           
+MAX(INV_PRICE)                                                                  
+--------------                                                                  
+         6 Girl's Soccer Tee                        50          15.95           
+         15.95                                                                  
+                                                                                
+
+28 rows selected.
+
+Connected.
+
+User dropped.
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+DROP TABLE evaluation CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE client CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+C_FIRST              C_LAST                                                     
+-------------------- --------------------                                       
+Janet                Park                                                       
+Sarah                Carlson                                                    
+Sheila               Hernandez                                                  
+Brian                Zhang                                                      
+
+
+C_FIRST              C_LAST                                                     
+-------------------- --------------------                                       
+Janet                Park                                                       
+Mark                 Myers                                                      
+Sheila               Hernandez                                                  
+Sarah                Carlson                                                    
+Brian                Zhang                                                      
+Paul                 Courtlandt                                                 
+
+6 rows selected.
+
+
+C_LAST                                                                          
+--------------------                                                            
+Zhang                                                                           
+Park                                                                            
+Courtlandt                                                                      
+
+Connected.
+
+User dropped.
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+DROP TABLE order_line CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE shipment_line CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE shipment CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE inventory CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE color CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE item CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE category CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE orders CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE order_source CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE customer CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+View created.
+

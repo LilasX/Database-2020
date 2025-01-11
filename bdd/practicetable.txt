@@ -1,0 +1,44 @@
+Connected.
+
+User created.
+
+
+User dropped.
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+
+Table created.
+
+
+Table created.
+
+
+TABLE_NAME                                                                      
+------------------------------                                                  
+VIDEO                                                                           
+RENTAL                                                                          
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ VID                                                NUMBER
+ TITLE                                              VARCHAR2(100)
+ RATING                                             VARCHAR2(50)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ VID                                                NUMBER
+ MID                                                NUMBER
+ DATE_RENTED                                        DATE
+ DATE_RETURNED                                      DATE
+
+
+TO_CHAR(SYSDATE,'DDMMYYYYDAYMONTHYEARHH:MI:SS')                                 
+--------------------------------------------------------------------------------
+20 09 2020 Sunday    September Twenty Twenty 06:40:07                           
+

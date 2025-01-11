@@ -1,0 +1,65 @@
+USER is "SYS"
+
+TO_CHAR(SYSDATE,'DDMMYYYYDAYMONTHYEARHH:MI:SSAM')                               
+--------------------------------------------------------------------------------
+20 09 2020 Sunday    September Twenty Twenty 11:06:20 Pm                        
+
+
+User dropped.
+
+
+User created.
+
+
+Grant succeeded.
+
+
+USERNAME                                                                        
+------------------------------                                                  
+PRACTICE_S14                                                                    
+SEPT17_USER                                                                     
+SYS                                                                             
+SYSTEM                                                                          
+ANONYMOUS                                                                       
+HR                                                                              
+APEX_PUBLIC_USER                                                                
+FLOWS_FILES                                                                     
+APEX_040000                                                                     
+OUTLN                                                                           
+DIP                                                                             
+
+USERNAME                                                                        
+------------------------------                                                  
+ORACLE_OCM                                                                      
+XS$NULL                                                                         
+MDSYS                                                                           
+CTXSYS                                                                          
+DBSNMP                                                                          
+XDB                                                                             
+APPQOSSYS                                                                       
+
+18 rows selected.
+
+
+User altered.
+
+Connected.
+
+User altered.
+
+Connected.
+USER is "SEPT17_USER"
+
+Table created.
+
+
+TABLE_NAME                                                                      
+------------------------------                                                  
+VIDEO                                                                           
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ VID                                                NUMBER
+ TITLE                                              VARCHAR2(80)
+ RATING                                             VARCHAR2(50)
+

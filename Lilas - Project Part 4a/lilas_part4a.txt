@@ -1,0 +1,83 @@
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+TABLE_NAME                                                                      
+------------------------------                                                  
+REGION                                                                          
+LOCATION                                                                        
+DEPARTMENT                                                                      
+EMPLOYEES                                                                       
+JOB                                                                             
+EMP_JOB                                                                         
+
+6 rows selected.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ REGID                                     NOT NULL NUMBER
+ REGIONNAME                                         VARCHAR2(100)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ LOCATION_ID                               NOT NULL NUMBER
+ BUILDING_NAME                                      VARCHAR2(100)
+ REGID                                              NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DEPTID                                    NOT NULL NUMBER
+ DEPTNAME                                           VARCHAR2(100)
+ LOCATION_ID                                        NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMPID                                     NOT NULL NUMBER
+ ENAME                                              VARCHAR2(100)
+ HIREDATE                                           DATE
+ DEPTID                                             NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ JOBID                                     NOT NULL NUMBER
+ DESCRIPTION                                        VARCHAR2(100)
+ SKILL_REQUIRED                                     VARCHAR2(100)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMPID                                     NOT NULL NUMBER
+ JOBID                                     NOT NULL NUMBER
+ DATE_JOB_ASSIGNED                                  DATE
+
+
+CONSTRAINT_NAME                C TABLE_NAME                                     
+------------------------------ - ------------------------------                 
+REGION_REGID_PK                P REGION                                         
+LOCATION_LOCATION_ID_PK        P LOCATION                                       
+LOCATION_REGID_FK              R LOCATION                                       
+DEPARTMENT_DEPTID_PK           P DEPARTMENT                                     
+DEPARTMENT_LOCATION_ID_FK      R DEPARTMENT                                     
+EMPLOYEES_EMPID_PK             P EMPLOYEES                                      
+EMPLOYEES_DEPTID_FK            R EMPLOYEES                                      
+JOB_JOBID_PK                   P JOB                                            
+EMP_JOB_EMPID_JOBID_PK         P EMP_JOB                                        
+EMP_JOB_EMPID_FK               R EMP_JOB                                        
+EMP_JOB_JOBID_FK               R EMP_JOB                                        
+
+11 rows selected.
+

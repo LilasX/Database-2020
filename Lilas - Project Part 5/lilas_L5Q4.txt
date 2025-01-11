@@ -1,0 +1,66 @@
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Sequence created.
+
+
+Sequence dropped.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row updated.
+

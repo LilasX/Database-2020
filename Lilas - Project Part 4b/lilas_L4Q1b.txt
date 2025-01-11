@@ -1,0 +1,118 @@
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+TABLE_NAME                                                                      
+------------------------------                                                  
+CUSTOMER                                                                        
+ORDERS                                                                          
+PRODUCT                                                                         
+ORDER_LINE                                                                      
+SUPPLIER                                                                        
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CUSTID                                    NOT NULL NUMBER
+ CUSTNAME                                  NOT NULL VARCHAR2(100)
+ PHONE                                              NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ OID                                       NOT NULL NUMBER
+ ODATE                                              DATE
+ CUSTID                                             NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PRODUCTID                                 NOT NULL NUMBER
+ DESCRIPTION                               NOT NULL VARCHAR2(100)
+ PRICE                                              NUMBER
+ SUPPLIER_ID                                        NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PRODUCTID                                 NOT NULL NUMBER
+ OID                                       NOT NULL NUMBER
+ QUANTITY                                           NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ SUPPLIER_ID                               NOT NULL NUMBER
+ SUPPLIER_NAME                             NOT NULL VARCHAR2(100)
+
+
+CONSTRAINT_NAME                C TABLE_NAME                                     
+------------------------------ - ------------------------------                 
+CUSTOMER_CUSTID_PK             P CUSTOMER                                       
+ORDERS_OID_PK                  P ORDERS                                         
+PRODUCT_PRODUCTID_PK           P PRODUCT                                        
+ORDER_LINE_PRODUCTID_OID_PK    P ORDER_LINE                                     
+SUPPLIER_SUPPLIER_ID_PK        P SUPPLIER                                       
+ORDERS_CUSTID_FK               R ORDERS                                         
+ORDER_LINE_OID_FK              R ORDER_LINE                                     
+ORDER_LINE_PRODUCTID_FK        R ORDER_LINE                                     
+PRODUCT_SUPPLIER_ID_FK         R PRODUCT                                        
+CUSTOMER_CUSTNAME_NN           C CUSTOMER                                       
+PRODUCT_DESCRIPTION_NN         C PRODUCT                                        
+
+CONSTRAINT_NAME                C TABLE_NAME                                     
+------------------------------ - ------------------------------                 
+SUPPLIER_SUPPLIER_NAME_NN      C SUPPLIER                                       
+PRODUCT_PRICE_CC               C PRODUCT                                        
+
+13 rows selected.
+

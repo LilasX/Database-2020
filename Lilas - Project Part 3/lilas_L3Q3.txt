@@ -1,0 +1,52 @@
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+TABLE_NAME                                                                      
+------------------------------                                                  
+COURSESECTION3                                                                  
+COURSE3                                                                         
+FACULTY                                                                         
+STUDENT2                                                                        
+GRADE2                                                                          
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ SECTION_ID                                         NUMBER
+ COURSENO                                           NUMBER
+ FID                                                NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ COURSENO                                           NUMBER
+ COURSENAME                                         VARCHAR2(100)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ FID                                                NUMBER
+ FNAME                                              VARCHAR2(100)
+ SALARY                                             NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ STUDENT_ID                                         NUMBER
+ STUDENTNAME                                        VARCHAR2(100)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ SECTION_ID                                         NUMBER
+ STUDENT_ID                                         NUMBER
+ GRADE                                              VARCHAR2(3)
+

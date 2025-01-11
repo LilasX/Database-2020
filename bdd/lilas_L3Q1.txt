@@ -1,0 +1,44 @@
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+TABLE_NAME                                                                      
+------------------------------                                                  
+CUSTOMER                                                                        
+ORDERS                                                                          
+PRODUCT                                                                         
+ORDER_LINE                                                                      
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CUSTID                                             NUMBER
+ CUSTNAME                                           VARCHAR2(100)
+ PHONE                                              NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ OID                                                NUMBER
+ ODATE                                              DATE
+ CUSTID                                             NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PRODUCTID                                          NUMBER
+ DESCRIPTION                                        VARCHAR2(100)
+ PRICE                                              NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PRODUCTID                                          NUMBER
+ OID                                                NUMBER
+ QUANTITY                                           NUMBER
+
